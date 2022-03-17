@@ -15,10 +15,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity {
-
     public static  String SERVER_IP = "127.0.0.1";
     public static  int SERVER_PORT = 9998;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
