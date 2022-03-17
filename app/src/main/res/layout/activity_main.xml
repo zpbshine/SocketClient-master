@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haocai.socketclient.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startJavaSocket"
+        android:textColor="@android:color/black"
+        android:text="启动java服务端"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cSendDataToJava"
+        android:textColor="@android:color/black"
+        android:text="c向java发送数据"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startCSocket"
+        android:textColor="@android:color/black"
+        android:text="启动C服务端"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="javaSendDataToC"
+        android:textColor="@android:color/black"
+        android:text="java向c发送数据"/>
+
+</LinearLayout>
